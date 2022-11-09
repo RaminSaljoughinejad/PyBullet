@@ -1,0 +1,7 @@
+<neuralNetwork>
+    <neuron name = "0" type = "sensor" linkName = "Torso" />
+    <neuron name = "1" type = "sensor" linkName = "BackLeg" />
+    <neuron name = "2" type = "sensor" linkName = "FrontLeg" />
+    <neuron name = "3" type = "motor"  jointName = "Torso_BackLeg" />
+    <neuron name = "4" type = "motor"  jointName = "Torso_FrontLeg" />
+</neuralNetwork>
